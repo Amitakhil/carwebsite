@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentaCar</title>
+    <link rel="stylesheet" href="car.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://cdn4.vectorstock.com/i/1000x1000/85/78/logo-for-car-rental-and-sales-vector-25468578.jpg">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation">
+                <form class="user-city">
+                    <select name="city" id="car1">
+                        <option value="non" selected>Plese select your city</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbal</option>
+                        <option value="Agra">Agra</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Indore">Indore</option>
+                        <option value="Bhopla">Bhopal</option>
+                        <option value="Phagwara">Phagwara</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="None" disabled>Sorry our Services are limited here</option>
+                    </select>
+                    </form>
+                <a href="signup.html" id="a1"><i class="fa-solid fa-user fa-beat-fade"></i>SignUp</a>
+                <a href="login.html" id="a2"><i class="fa-solid fa-users fa-beat-fade"></i>Login</a>
+                <a href="managebook.html" id="a3"><i class="fa-sharp fa-solid fa-screwdriver-wrench fa-shake"></i>ManageBooking</a>
+                <a href="contect.html" id="a4"><i class="fa-sharp fa-solid fa-phone fa-bounce"></i>Contect</a>
+            </nav>
+        </div>
+    </header>
+    <main><hr>
+        <div class="main1">
+            <div class="mdiv1">
+                <form>
+                    <h2>COUNTRY</h2>
+                    <select name="country" id="country1">
+                        <h1>COUNTRY</h1>
+                        <option value="INDIA" selected>INDIA</option>
+                        <option value="none" disabled>SORRY WE ARE LIMITED HEAR</option>
+                    </select>
+                    <h2>SELECT PICK-UP CITY</h2>
+                    <select name="City" id="CITY">
+                        <option value="non" selected>Plese select your city</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Agra">Agra</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="Channei">Channei</option>
+                        <option value="Indore">Indore</option>
+                        <option value="Bhopla">Bhopal</option>
+                        <option value="Phagwara">Phagwara</option>
+                        <option value="Chandighar">Chandighar</option>
+                        <option value="None" disabled>Sorry our Services are limited hear</option>
+                    </select>
+                    <h2>ENTER PICK-UP LOCATION</h2>
+                    <input type="text" placeholder="enter your location hear" id="location" required><h2>HIRE START</h2>
+                    <input type="date" id="date"><input type="time" id="time" required><h2>HIRE END</h2>
+                    <input type="date" id="date"><input type="time" id="time" required>
+                    <button id="submit" onclick="alert('Your infomation is saved now choose your car and book your car 😃')"> SUBMIT</button>
+                </form>
+            </div>
+        </div>
+        <pre class="pre1"><b>All the brands on the same website, search a car and compare prices</b></pre>
+        <div class="seconddiv">
+            <div id="Honda"><img src="https://wallpapercave.com/wp/886foH2.jpg"  id="Honda"></div>
+            <div id="Suzuki"><img src="https://th.bing.com/th/id/OIP.GuxVmDo3XPGfi5KQEFemzQHaFj?rs=1&pid=ImgDetMain" id="Suzuki"></div>
+            <div id="Toyota"><img src="https://th.bing.com/th/id/OIP.arB4JG8H6hDcgqNFtVLLYgHaGe?rs=1&pid=ImgDetMain" id="Toyota"></div>
+            <div id="tata"><img src="https://img2.cgtrader.com/items/3097318/af54b58d65/large/tata-logo-3d-model.jpg" id="tata"></div>
+            <div id="marc"><img src="https://logos-world.net/wp-content/uploads/2020/05/Mercedes-Benz-Logo.png" id="marc"></div>
+            <div id="jac"><img src="https://logos-world.net/wp-content/uploads/2021/03/Jaguar-Logo-2012-present.png" id="jac"></div>
+            <div id="bmw"><img src="https://logos-marques.com/wp-content/uploads/2021/02/BMW-Logo-1963.png"id="bmw"></div>
+            <div id="mahi"><img src="https://logohistory.net/wp-content/uploads/2023/01/Mahindra-Logo.png" id="mahi"></div>
+        </div>
+        <form id="form2">
+            <select id="brand">
+                <option value="Honda1">HONDA  ₹2000 per/hour</option>
+                <option value="tata1">TATA  ₹3500 per/hour</option>
+                <option value="mahindra1">MAHINDRA  ₹4000 per/hour</option>
+                <option value="ford1">FORD  ₹6000 per/hour</option>
+                <option value="hyundai1">HYUNDAI  ₹2000 per/hour</option>
+                <option value="maruti1">MARUTI SUZUKI  ₹1000 per/hour</option>
+                <option value="kia1">KIA  ₹1500 per/hour</option>
+                <option value="RANAULT1">RANAULT  ₹1250 per/hour</option>
+                <option value="VOKSWAGEN1">VOKSWAGEN  ₹2389 per/hour</option>
+                <option value="toyota1">TOYOTA  ₹3000 per/hour</option>
+                <option value="dutsun1">DUTSUN  ₹1756 per/hour</option>
+            </select>
+            <button id="BOOK" onclick="alert('Your booking has been conformed you can cheak your gmail or cheak in manage car option botton')">Click hear to <i class="fa-solid fa-car fa-beat"></i>BOOK NOW</button>
+        </form>
+        <div class="thirddiv">
+            <div id="hondacar"><img src="https://autonexa.com/wp-content/uploads/2020/03/honda-amaze.jpg" id="hondacar"></div>
+            <div id="suzukicar"><img src="https://s3-ap-southeast-2.amazonaws.com/assets.i-motor.com.au/s/vehicles-api/swift-sport-colour-champion-yellow_ss_spinner-f34-3160x1720_yellow.jpeg" id="suzukicar"></div>
+            <div  id="fortunercar"><img src="https://s1.cdn.autoevolution.com/images/gallery/TOYOTA-Fortuner-6076_43.jpg" id="fortunercar"></div>
+            <div id="tatacar"><img src="https://www.autobics.com/wp-content/uploads/2018/10/2018-Tata-Harrier-Orange-Rear-Quarter.jpg" id="tatacar"></div>
+        </div>
+        <div class="fourdiv">
+            <div id="marcar"><img src="https://backiee.com/static/wpdb/wallpapers/3840x2160/224770.jpg" id="marcar"></div>
+            <div id="jagcar"><img src="https://wallpapercave.com/wp/wp9199862.jpg" id="jagcar"></div>
+            <div id="bmwcar"><img src="https://wallup.net/wp-content/uploads/2016/01/175707-car-BMW-red_cars.jpg" id="bmwcar"></div>
+            <div id="tharcar"><img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https:%2f%2fcdni.autocarindia.com%2fExtraImages%2f20210406061737_Mahindra_Thar_RT_lead.jpg&h=795&w=1200&c=0" id="tharcar"></div>
+        </div>
+        
+        <div id="infomation">
+            <div id="info1">
+                <h1 id="in1">Book Safe and easy</h1>
+                <p>Our smart booking engine searches for for the best price, car category, extras, exclusive offers and discounts suiting your needs. You can securely book online today only with a small downpayment and pay the rest upon your arrival at the desk!</p>
+            </div>
+            <div id="info2">
+                <h1 id="in1">Leading experts</h1>
+                <p>Rentacar has provided millions of customers with the best possible guaranteed price for their Car Hire. We welcome you to become our next satisfied customer.</p>
+            </div>
+        </div>
+        <div class="ladiv">
+            <div id="la1">
+                <a href="">Home</a><hr>
+                <a href="">My booking</a><hr>
+                <a href="">Affiliates</a><hr>
+                <a href="">Suppliers</a><hr>
+                <a href="">Managers</a><hr>
+                <a href="">Car Hire Locations</a><hr>
+            </div>
+
+            <div id="la2">
+                <a href="">Car Hire</a><hr>
+                <a href="">Car Hire - One Way</a><hr>
+                <a href="">Car Hire - Automatic</a><hr>
+                <a href="">Car Hire - Compare</a><hr>
+                <a href="">Car Hire - 7 and 9 Seater</a><hr>
+                <a href="">Car Hire Luxury and Prestige</a><hr>
+            </div>
+
+            <div id="la3">
+                <a href="">FAQ</a><hr>
+                <a href="">Advice for renters</a><hr>
+                <a href="">Contact us</a><hr>
+                <a href="">Privacy Notice</a><hr>
+                <a href="">Cookie Policy</a><hr>
+                <a href="">General Terms of Use</a><hr>
+            </div>
+            <div id="la4">
+                <a href="" id="a9"><i class="fa-brands fa-facebook fa-beat"></i></a>
+                <a href="https://instagram.com/mr__ashish__2208?igshid=MTFyYmZsbGZhb2NheQ==" id="a9">
+                    <i class="fa-brands fa-instagram fa-beat"></i></a>
+                <img src="Screenshot 2023-11-15 114710.png" id="insta">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 RentaCar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

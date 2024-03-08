@@ -1,0 +1,274 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    height: 50px;
+    width: 70px;
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/85/78/logo-for-car-rental-and-sales-vector-25468578.jpg");
+    background-size: cover;
+    padding-top: 7px;
+    
+
+}
+.navigation{
+    display: flex;
+    
+}
+i{
+    margin-right: 10px;
+}
+#a1{
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 350px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+#a2,#a3,#a4,#a5{
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 70px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+#a1:hover,#a2:hover,#a3:hover,#a4:hover, #a5:hover{
+    color: black;
+    background-color: rgba(96, 82, 82, 0.364);
+    border-radius: 20%;
+    text-decoration:underline;
+}
+
+#car1{
+    margin-left: 150px;
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.main1{
+    height: 600px;
+    width: 1500px;
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 2px 3px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 13s infinite steps(1);
+
+}
+@keyframes change{
+    0%{
+        background-image: url("https://th.bing.com/th/id/R.867e007729c17055f62ebef0409255c2?rik=X3b%2bfaqbPoA2zg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2frolls-royce-black-2017.jpg&ehk=51LoVgg8zB0%2bZhApGPUmDe%2b%2f3lI9C7ukAEnMRliLF64%3d&risl=&pid=ImgRaw&r=0");
+    }
+    25%{
+        background-image: url("https://images.hdqwalls.com/download/grey-nissan-gtr-4k-oy-1920x1200.jpg");
+    }
+    50%{
+        background-image: url("https://imgd.aeplcdn.com/0x0/cw/ec/19812/Toyota-Fortuner-left-rear-three-quarter-99698.jpg?v=201711021421&wm=1&q=100");
+        
+    }
+    75%{
+        background-image: url("https://images.hdqwalls.com/download/audi-r8-yellow-4k-y0-1920x1080.jpg");
+    }
+    100%{
+        background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Cars-Full-HD-Photos-1920x1080.jpg");
+    }
+}
+.mdiv1{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 560px;
+    width: 500px;
+    background-color: rgba(153, 151, 151, 0.415);
+    box-shadow: 2px 3px 10px;
+    color: wheat;
+    border: 2px solid black;
+    animation: changec 13s infinite steps(1);
+
+}
+@keyframes changec{
+    0%{
+        color: silver;
+    }
+    25%{
+        color: rgb(107, 33, 33);
+    }
+    50%{
+        color: black;
+        
+    }
+    75%{
+        color: gold;
+    }
+    100%{
+        color: wheat;
+    }
+}
+
+
+h2{
+    margin-left: 20px;
+   
+}
+#country1{
+    margin-left: 5px;
+    height: 31px;
+    width: 480px;
+    box-shadow: 2px 3px 10px;
+}
+#CITY,#location{
+    margin-left: 5px;
+    height: 31px;
+    width: 480px;
+    box-shadow: 2px 3px 10px;
+}
+#date, #time{
+    margin-left: 5px;
+    height: 31px;
+    width: 240px;
+    box-shadow: 2px 3px 10px;
+
+}
+#submit{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 31px;
+    width: 492px;
+    box-shadow: 2px 3px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+#selectcar{
+    margin-left: 5px;
+    border: 3px solid black;
+    color: white
+}
+#country1:hover, #CITY:hover,#location:hover,#date:hover,#time:hover{
+    color: rgba(255, 0, 0);
+
+}
+#submit:hover{
+    text-align: center;
+    color: red;
+}
+
+.pre1{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(75,160,230,255);
+    margin-top: 70px;
+    box-shadow: 2px 3px 20px;
+}
+.seconddiv{
+    width: 1400px;
+    display: flex;
+}
+#Suzuki,#Honda,#Toyota,#tata,#marc,#jac,#bmw,#mahi{
+    padding-left: 50px;
+    height:50px;
+    padding-right: 0px;
+}
+
+.thirddiv{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 287px;
+}
+#hondacar,#suzukicar,#fortunercar,#tatacar{
+    height: 150px;
+}
+
+.fourdiv{
+    display: flex;
+    margin-left: 288px;
+}
+#marcar,#jagcar,#bmwcar,#tharcar{
+    height: 150px;
+}
+#infomation{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(196, 196, 238);
+    border-top: 3px solid black;
+}
+#in1{
+    color: blue;
+}
+#info1{
+    margin-left: 10px;
+}
+
+#form2{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    
+}
+
+#brand{
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    box-shadow: 2px 3px 40px;
+}
+#brand:hover{
+    transform:scale(1.1);
+}
+#BOOK{
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 2px 3px 40px;
+    margin-left: 7px;
+    
+}
+#BOOK:hover{
+    background-color: rgb(133, 133, 187);
+    transform:scale(1.1);
+}
+
+.ladiv{
+    height: 270px;
+    margin-top: 20px;
+    background-color: rgb(137, 137, 241);
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}
+#la1{
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+
+#la2,#la3{
+    margin-top: 30px;
+    margin-left: 80px;
+    
+}
+#la4{
+    padding-left: 20px;
+    margin-top: 50px;
+    color: black;
+    margin-left: 700px;
+}
+#a9{
+    padding-left: 10px;
+    color: black;
+}
+#insta{
+    padding-right: 100px;
+    padding-top: 50px;
+    height: 100px;
+}
+footer{
+    text-align: center;
+}
